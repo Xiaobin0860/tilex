@@ -43,6 +43,8 @@ config :tilex, Tilex.Repo,
   adapter: Ecto.Adapters.Postgres,
   database: "tilex_dev",
   hostname: "localhost",
+  username: "postgres",
+  password: "postgres",
   pool_size: 10
 
 config :tilex, :page_size, 50
